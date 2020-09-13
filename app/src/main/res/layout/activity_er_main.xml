@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".engineer.ErMainActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/colorPrimaryDark"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/profileImageErMainActivity"
+                android:layout_marginTop="-100dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/anmol"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp">
+            <TextView
+                android:id="@+id/userNameErMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anmol Noor"
+                android:textSize="39sp"
+                android:paddingLeft="8dp"
+                android:gravity="start"
+                android:paddingVertical="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/branchErMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:text="Computer Enginer"
+                android:paddingLeft="8dp"
+                android:textSize="24sp"
+                android:gravity="start"
+                android:textColor="@color/colorPrimary"/>
+            <LinearLayout
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/experienceErMAinActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/emailErMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="emailaddress@gmail.com"
+                android:textSize="24sp"
+                android:gravity="start"
+                android:paddingLeft="8dp"
+                android:paddingVertical="5dp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/phoneNumberErMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="phoneNumber"
+                android:textSize="24sp"
+                android:paddingLeft="8dp"
+                android:paddingVertical="5dp"
+                android:gravity="start"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/addressErMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address only city"
+                android:textSize="24sp"
+                android:paddingVertical="5dp"
+                android:gravity="start"
+                android:paddingLeft="8dp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editProfileErMainActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbg"
+            android:layout_margin="40dp"
+            android:text="Edit Profile"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+

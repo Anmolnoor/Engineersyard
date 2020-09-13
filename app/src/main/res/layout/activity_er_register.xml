@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".database.register.ErRegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register here"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/pacificoregular"/>
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/fname"
+                >
+
+                <EditText
+                    android:id="@+id/firstNameErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="First_Name"
+                    android:textColor="#000"
+                    android:backgroundTint="#777"
+                    android:textSize="22sp"
+                    android:inputType="text"/>
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/fname"
+                >
+
+                <EditText
+                    android:id="@+id/lastNameErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last_Name"
+                    android:textColor="#000"
+                    android:backgroundTint="#777"
+                    android:textSize="22sp"
+                    android:inputType="text"/>
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/fname"
+                >
+
+                <EditText
+                    android:id="@+id/userNameErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="User_Name"
+                    android:textColor="#000"
+                    android:backgroundTint="#777"
+                    android:textSize="22sp"
+                    android:inputType="text"/>
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/email"
+                >
+
+                <EditText
+                    android:id="@+id/emailErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="E-Mail"
+                    android:textColor="#000"
+                    android:backgroundTint="#777"
+                    android:textSize="22sp"
+                    android:inputType="textEmailAddress"/>
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/passwd"
+                >
+
+                <EditText
+                    android:id="@+id/passwordErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColor="#000"
+                    android:backgroundTint="#777"
+                    android:textSize="22sp"
+                    android:inputType="textPassword"/>
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/passwd"
+                >
+
+                <EditText
+                    android:id="@+id/rePasswordErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm-Password"
+                    android:textColor="#000"
+                    android:backgroundTint="#777"
+                    android:textSize="22sp"
+                    android:inputType="textPassword"/>
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/phonenumber"
+                >
+
+                <EditText
+                    android:id="@+id/phoneNumberErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#777"
+                    android:hint="Phone_Number"
+                    android:inputType="phone"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/address"
+                >
+
+                <EditText
+                    android:id="@+id/addressErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Address"
+                    android:textColor="#000"
+                    android:backgroundTint="#777"
+                    android:textSize="22sp"
+                    android:inputType="text"/>
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_labelColor="@color/colorPrimaryDark"
+                app:mtf_image="@drawable/star"
+                >
+
+                <EditText
+                    android:id="@+id/experienceErRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Experience"
+                    android:textColor="#000"
+                    android:backgroundTint="#777"
+                    android:textSize="22sp"
+                    android:inputType="number"/>
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinnerRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="18dp"
+                android:backgroundTint="@color/background"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:paddingHorizontal="40dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender :  "
+                    android:textSize="24sp"
+                    android:textColor="@color/colorPrimaryDark" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:id="@+id/maleErRegister"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTint="@color/colorAccent"
+                        android:text="Male"
+                        android:background="@color/background" />
+                    <RadioButton
+                        android:id="@+id/feMaleErRegister"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fe-Male"
+                        android:background="@color/background"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/registerEr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Register"
+                android:textSize="24sp"
+                android:layout_margin="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

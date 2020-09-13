@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "69746359733",
+    "firebase_url": "https://engineers-yard.firebaseio.com",
+    "project_id": "engineers-yard",
+    "storage_bucket": "engineers-yard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69746359733:android:6a6ca88654a53289c72dfc",
+        "android_client_info": {
+          "package_name": "com.example.day28"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69746359733-avj689pfdbtg7f9qmupdc233ice9noq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVnzN9zVMEWnhOzcouMea-ICGxMEbsDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69746359733-avj689pfdbtg7f9qmupdc233ice9noq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
