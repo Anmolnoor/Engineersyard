@@ -1,5 +1,6 @@
-# engineersyard
-This is a project of Android Development.
+# Engineer's Yard
+
+**This is a project of Android Development.**
 
 
 This project is aimed at developing an application for companies to recruit engineers that satisfy the needs of workers in the company. The system is an online application that can be accessed throughout the organization and outside as well with proper login provided. 
